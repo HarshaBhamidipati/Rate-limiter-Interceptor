@@ -1,17 +1,11 @@
 package com.harb.ratelimiter.book;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 
-@Entity
+
 public class Book {
-    @Id
     String id;
     String name;
     String description;
-
-    public Book() {
-    }
 
     public Book(String id, String name, String description) {
 

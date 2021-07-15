@@ -1,0 +1,2 @@
+To run Rate-limiter application, please use command 'mvn spring-boot:run' in outside /src folder
+The Application has endpoint as http://localhost:8080/books
